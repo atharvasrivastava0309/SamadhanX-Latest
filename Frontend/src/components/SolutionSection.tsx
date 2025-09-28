@@ -178,25 +178,7 @@ const SolutionSection = () => {
         </div>
 
         {/* Call to Action */}
-        <div className="text-center mt-20 animate-fade-in" style={{ animationDelay: "0.8s" }}>
-          <div className="bg-gradient-card border border-border rounded-2xl p-8 shadow-hero max-w-2xl mx-auto">
-            <h3 className="text-2xl font-bold text-foreground mb-4">
-              Ready to Transform Civic Engagement?
-            </h3>
-            <p className="text-muted-foreground mb-6">
-              Experience the future of grievance redressal with our intelligent, transparent platform.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button variant="hero" size="lg" className="group">
-                Start Your Complaint
-                <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
-              </Button>
-              <Button variant="outline" size="lg">
-                View Demo
-              </Button>
-            </div>
-          </div>
-        </div>
+        
       </div>
     </section>
   );
